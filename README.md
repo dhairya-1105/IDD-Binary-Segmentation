@@ -9,14 +9,12 @@ This project applies binary semantic segmentation on the **IDD (Indian Driving D
 | U-Net        | 74.04   | 84.24          |
 | DeepLabV3+   | 87.40   | 93.15          |
 
----
 
 ##  Models Used
 
 - **U-Net**: A simple encoder–decoder architecture used as the baseline.
 - **DeepLabV3+**: Enhanced segmentation model with atrous convolutions and a ResNet backbone, significantly improving accuracy.
-
----
+![U-Net Architecture](https://media.geeksforgeeks.org/wp-content/uploads/20220614121231/Group14.jpg)
 
 ##  Features
 
@@ -30,7 +28,7 @@ This project applies binary semantic segmentation on the **IDD (Indian Driving D
   - Road textures and occlusions
 
 ### Acknowledgements
-- [IDD Dataset] (https://idd.insaan.iiit.ac.in/)
-- [U-Net] (https://arxiv.org/abs/1505.04597)
-- [DeepLabV3+] (https://arxiv.org/abs/1802.02611)
+- [IDD Dataset](https://idd.insaan.iiit.ac.in/)
+- [U-Net](https://arxiv.org/abs/1505.04597)
+- [DeepLabV3+](https://arxiv.org/abs/1802.02611)
 
