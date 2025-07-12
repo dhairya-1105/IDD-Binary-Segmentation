@@ -4,11 +4,26 @@ This project applies binary semantic segmentation on the **IDD (Indian Driving D
 
 ## 📈 Results
 
+### Sample U-Net Outputs:
+![unet_1](result_assets/unet_1.png)
+![unet_2](result_assets/unet_2.png)
+![unet_3](result_assets/unet_3.png)
+![unet_4](result_assets/unet_4.png)
+![unet_5](result_assets/unet_5.png)
+
+### Sample DeepLabV3+ baced U-Net Outputs:
+![deeplab_1](result_assets/deeplab_1.png)
+![deeplab_2](result_assets/deeplab_2.png)
+![deeplab_3](result_assets/deeplab_3.png)
+![deeplab_4](result_assets/deeplab_4.png)
+![deeplab_5](result_assets/deeplab_5.png)
+
+### Comparison of Metrics:
+
 | Model        | IoU (%) | Dice Score (%) |
 |--------------|---------|----------------|
 | U-Net        | 74.04   | 84.24          |
 | DeepLabV3+   | 87.40   | 93.15          |
-
 
 ##  Models Used
 
